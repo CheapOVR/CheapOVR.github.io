@@ -1,0 +1,24 @@
+
+ @font-face {
+    font-display: block;
+    font-family: "gitflic-font";
+    src: url("./gitflic-font.woff2") format("woff2"), 
+        url("./gitflic-font.woff") format("woff");
+  }
+  
+  .gi::before,
+  [class^="gi-"]::before,
+  [class*=" gi-"]::before {
+    display: inline-block;
+    font-family: gitflic-font !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: .100em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .gi-gitflic::before { content: "\41"; }

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <title>CheapOVR</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="gitflic-font/gitflic-font.css">
+    <link rel="stylesheet" href="css/site.css">
+    <style>
+    .feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+</style>
+    <script src="js/colortoggler.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src="img/logo.svg" alt="CheapOVR" width="30" height="24" class="d-inline-block align-text-top">
+                CheapOVR
+            </a>
+            <div class="navbar-nav">
+                <a class="nav-link py-2 px-0 px-lg-2" href="https://CheapOVR.github.io/ru" target="_blank" rel="noopener" title="Russian language">🇷🇺</a>
+                <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                    id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
+                    aria-label="Toggle theme (dark)"><i class="theme-icon-active"></i></button>
+
+            <div class="dropdown">
+                <ul class="dropdown-menu dropdown-menu-end p-2 rounded-3 shadow" aria-labelledby="bd-theme-text">
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center rounded-2"
+                            data-bs-theme-value="light">
+                            <i style="padding-right:10px;" class="bi bi-sun-fill"></i>
+                            Light
+                        </button>
+                    </li>
+                    <li style="padding-top:4px; padding-bottom:4px;">
+                        <button type="button" class="dropdown-item d-flex align-items-center active rounded-2"
+                            data-bs-theme-value="dark">
+                            <i style="padding-right:10px;" class="bi bi-moon-stars-fill"></i>
+                            Dark
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center rounded-2"
+                            data-bs-theme-value="auto">
+                            <i style="padding-right:10px;" class="bi bi-circle-half"></i>
+                            Auto
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+    </nav>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+         <img src="img/logo.svg" alt="CheapOVR" width="120em" height="120em" class="d-inline-block align-text-top">
+        <h1 class="display-4 fw-bold text-body-emphasis">CheapOVR</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">CheapOVR project to build a cheap VR helmet. You can build it yourself by following the instructions that will appear here in the future.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" disabled>Getting Started</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.location.href = 'https://github.com/CheapOVR/'">Get Source Code</button>
+          </div>
+        </div>
+<!--
+        <div class="overflow-hidden" style="max-height: 40vh;">
+          <div class="container px-5">
+            <img src="img/image.png" class="img-fluid rounded-3 mb-4 prevent-select" alt="Screenshot of CheapOVR" width="800" height="600" loading="lazy" draggable="false">
+          </div>
+        </div>
+        -->
+      </div>
+
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Features</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <i width="24" height="24" class="bi bi-emoji-sunglasses-fill"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Open-Source</h3>
+            <p>Open source code allows anyone to make changes to the code to suit their needs.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <i width="24" height="24" class="bi bi-headset-vr"></i>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Cross-platform in the future</h3>
+            <p>Cross platforming will help realize the project's compatibility with GNU/Linux and Windows.</p>
+          </div>
+          </div>
+      </div>
+
+ 
+
+    <hr />
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img class="bi" width="30" height="24" src="img/logo.svg">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">🄯 2024 CheapOVR</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/CheapOVR"><i width="24" height="24"
+                            class="bi bi-github"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
